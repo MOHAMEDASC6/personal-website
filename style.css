@@ -1,0 +1,124 @@
+body{
+    background-image: url("https://wallpapertag.com/wallpaper/full/7/f/9/439839-nice-background-images-1920x1200-for-htc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    border: grey;
+    border-width: 3px;
+    
+}
+.frontpage{ 
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    font-size: 30px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+li a:hover:not(.active) {
+    background-color: skyblue;
+}
+
+.active {
+    background-color: tomato;
+}
+.about{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    font-size: 30px;
+}
+.athletics{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    font-size: 20px;
+    
+    
+
+    }
+
+
+.frontpage{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    font-size: 30px;
+}
+h1 {
+    font-size: 50px;
+}
+#soccer-pic{
+    width:500px; 
+    height:600px;
+    display: flex; 
+    justify-content: flex-end;
+    padding: 10px;
+}
+/*about*/
+h2{
+    font-size: 25px;
+    color:whitesmoke
+
+}
+h5{
+    color:white
+}
+
+.container{
+    display: flex
+    flex
+
+
+
+}
+
+.soccerContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row wrap;
+    width: 100%;
+}
+
+.soccerText{
+    font-size: 50px;
+}
+#ivoryCoast{
+    width:500px; 
+    height:300px;
+    display: flex; 
+    justify-content: flex-end;
+    padding: 10px;
+}
+.picureContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row wrap;
+    width: 100%;
+}
